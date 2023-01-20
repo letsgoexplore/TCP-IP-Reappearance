@@ -22,6 +22,7 @@ In this project, we mainly focus on the Transmission Layer. Other layers like Ap
 
 Ubuntu=22.4
 wireshark : An app to catch the transmitting package.
+
 ```
 sudo apt install git curl python3-pip wireshark
 sudo usermod -aG wireshark $USER
@@ -30,10 +31,14 @@ sudo usermod -aG wireshark $USER
 ### Run the code
 
 open a new terminal at the same directory of the `driver`, and type:
-```sudo ./driver
+
 ```
+sudo ./driver
+```
+
 Then the server is on.
 After this open another terminal at the directory of the `main.py`
 
-```python main.py
+```
+python main.py
 ```
